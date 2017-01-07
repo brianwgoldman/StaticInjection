@@ -4,10 +4,10 @@
 #include "FooProvider.h"
 
 class Injected {
-  decltype(INJECT_FOO) injected_var = INJECT_FOO;
+  decltype(INJECT_FOO) foo = INJECT_FOO;
   public:
   void display() {
-    injected_var.display();
+    foo.display(7);
   }
 };
 

@@ -1,4 +1,5 @@
-#include "injected.h"
+#include "Module.h"
+#include "Injected.h"
 
 int main() {
   Injected injected;

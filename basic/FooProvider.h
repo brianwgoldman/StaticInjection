@@ -1,7 +1,7 @@
-#ifndef PROVIDER_H
-#define PROVIDER_H
+#ifndef FOOPROVIDER_H
+#define FOOPROVIDER_H
 
-#ifndef TESTING
+#ifndef FOO_FAKE
   #include "Foo.h"
   #define INJECT_FOO Foo()
 #else
